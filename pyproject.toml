@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "videoeditor"
+version = "0.1.0"
+description = ""
+authors = ["natanfds <natanfernandesdossantos@zohomail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+moviepy = "^1.0.3"
+pydub = "^0.25.1"
+speechrecognition = "^3.11.0"
+whisper-timestamped = "^1.15.6"
+onnxruntime = "^1.20.0"
+torchaudio = "^2.5.1"
+transformers = "^4.46.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
